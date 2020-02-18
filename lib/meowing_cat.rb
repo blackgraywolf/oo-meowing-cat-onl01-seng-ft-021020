@@ -1,14 +1,10 @@
 ## code your solution here. 
 Class Cat
-  attr_accessor :name
-  attr_reader :age
+  attr_accessor :meow
   
-  def initialize(name, age)
-    @name = name
-    @age = age
-  end
   
-  def say_name
-    puts "Hi, my name is #{@name}"
+  
+  def meow
+    puts "meow!"
   end
 end
