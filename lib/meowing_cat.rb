@@ -1,5 +1,5 @@
 ## code your solution here. 
-Class Cat
+class Cat
   attr_accessor :meow
   
   
